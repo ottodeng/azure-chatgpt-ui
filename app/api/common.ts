@@ -9,7 +9,7 @@ const PROTOCOL = DEFAULT_PROTOCOL;
 const AZURE_OPENAI_API_BASE = process.env.AZURE_OPENAI_API_BASE;
 const AZURE_OPENAI_DEPLOYMENT_NAME = process.env.AZURE_OPENAI_DEPLOYMENT_NAME;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const AZURE_OPENAI_PATH = "chat/completions?api-version=2023-03-15-preview";
+const AZURE_OPENAI_PATH = "chat/completions?api-version=2023-05-15";
 
 export async function requestOpenai(req: NextRequest) {
   //ONLY get API key from environemnt variable
